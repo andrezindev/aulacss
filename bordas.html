@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+
+ <!--
+        /*
+        3 valores para a borda
+        espessura - border-width
+        cor- border-color
+       estilo de borda- border-style */
+ 
+ 
+            border-width: 5px;
+            border-color: red;  
+            border-style: solid; 
+            
+            DESSA FORMA COMO ESTA NO EXEMPLO ABAIXO , PODEMOS DEFINIR AS PROPRIEDADES DA BORDA DE FORMA SEPARADA , OU SEJA , DEFINIR A ESPESSURA , COR E ESTILO DE FORMA INDIVIDUAL , OU SEJA, SEPARADA. MAS TAMBÉM PODEMOS DEFINIR AS PROPRIEDADES DA BORDA DE FORMA CONJUNTA , OU SEJA, EM UMA UNICA LINHA DE CODIGO , COMO MOSTRADO ABAIXO. 
+
+               border: 5px solid red;   ( TUDO EM UMA LINHA)
+            
+            JA AQUI CONSEGUIMOS DEFINIR SEPARADAMENTO COMO QUEREMOS QUE CADA BORDA FIQUE, POR EXEMPLO QUAL  A COR DA BORDA SUPERIOR OU A INFERIOR , QUAL SEU TAMANHO OU ESPESSURA..
+
+
+            border-width: 10px 20px 5px 12px;
+            border-color: red green blue orange;
+            border-style:double;
+
+             border: 5px solid red;
+
+
+             PARA DEFINIR POR EX: SO QUERO A BORDA NA PARTE SUPERIOR, podemos utilizar da seguinte forma , apos o border definimos onde queremos ter a borda
+
+             top,left,right,bottom
+            
+             border-top-width: 10px 20px 5px 12px;
+            border-top-color: red green blue orange;
+            border-top-style:double;
+        
+
+            PARA FAZER ESSA MESMA DEFINICAO DE ONDE QUEREMOS A BORDA EM UMA LINHA SO,BASTA FAZER DA SEGUINTE MANEIRA
+
+            border-top:4px solid red; ou border-left: 5px solid red;
+
+            PARA REALIZAR UM REDONDAMENTO NAS BORDAS USAMOS O
+
+            border-radius: 30px;
+
+            CASO VOCE QUEIRA REALIZAR UM ARREDONDAMENTO DE APENAS ALGUNS CANTOS , VOCE TAMBEM CONSEGUE USANDO O SEGUINTE:
+
+            border-TOP-LEFT-radius: 20px;  ( ou seja , aqui arrendonda o canto esquerdo -superior)
+            
+            
+            border-top-right-radius: 20px;  ( aqui e o canto direito superior)
+
+            border-bottom-right-radius: 20px; ( canto direito inferior)
+
+            border-bottom-left-radius: 20px; ( canto esquerdo inferior)
+            
+-->
+         <style>
+         h1{
+                background-color: orange;
+
+
+                border-color: black;
+                border-bottom-style:dotted ;
+                border-top-left-radius:20px;
+                border-top-right-radius:20px;
+                padding:5px
+         }
+
+         P{
+                background-color: lightblue;
+                border-left: 10px solid purple;
+                border-right:10px solid purple;
+                padding: 8px;
+                border-radius: 20px;
+
+
+
+
+         }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+        <h1>Modelo de Caixa</h1>
+
+        <p>
+            lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quasi natus veritatis accusamus aliquid fugit quis possimus, autem unde quo doloremque nemo accusantium deleniti quia ut dignissimos? Possimus, delectus voluptatem.
+        </p>
+
+
+
+
+
+</body>
+</html>
