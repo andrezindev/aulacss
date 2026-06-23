@@ -1,0 +1,27 @@
+#fundo{
+    background-color: lightgrey;
+}
+#titulo{
+    color: purple;
+
+}
+#conteudo{
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+}
+
+img{
+    border: 1px solid red;
+    padding: 10px ;
+   
+    
+}
+
+h1{
+    margin: 20px;
+}
+
+p{
+    margin: 20px;
+}
