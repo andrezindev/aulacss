@@ -1,12 +1,24 @@
 a{
-    color:white;
+    color:dodgerblue;
+    border-radius: 5px; 
+    border: 2px solid white;
+    background-color: lightblue;
+    margin:  5px;
 }
 
 
-h1{
-    background-color:rgba(26, 79, 192, 0.466);
-    font-family:Brush Script MT, Brush Script Std, cursive;
+#produtos{
+   
+        width: 1000px;
+        margin: 10px auto;
+       
+        
 }
+
+body{
+    margin: 0;
+}
+
 /*
 p{
     color:orange;
